@@ -1,0 +1,6 @@
+def permutation(P, A):
+  new_P = []
+  i = 0
+  for elem in A:
+    new_P[i] = P[elem]
+  return new_P
